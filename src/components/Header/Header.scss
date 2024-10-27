@@ -1,0 +1,39 @@
+.header{
+    .navbar{
+        height: 70px;
+        display: flex;
+        gap: 60px;
+        align-items: center;
+        .navbar__collection{
+            display: flex;
+            gap: 16px;
+            flex: 1;
+            .navbar__item{
+                a{
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+            }
+        }
+        .navbar__end{
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            .navbar__end__collection{
+                display: flex;
+                gap: 16px;
+                .navbar__end__item{
+                    a{
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .navbar__icons{
+                display: flex;
+                gap: 16px;
+                font-size: 26px;
+            }
+        }
+    }
+}
